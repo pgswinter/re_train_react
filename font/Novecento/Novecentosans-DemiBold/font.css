@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'iCielNovecentosans-DemiBold';
+  src: url('iCielNovecentosans-DemiBold.eot');
+  src: url('iCielNovecentosans-DemiBold.woff2') format('woff2'),
+       url('iCielNovecentosans-DemiBold.woff') format('woff'),
+       url('iCielNovecentosans-DemiBold.ttf') format('truetype'),
+       url('iCielNovecentosans-DemiBold.svg#iCielNovecentosans-DemiBold') format('svg'),
+       url('iCielNovecentosans-DemiBold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

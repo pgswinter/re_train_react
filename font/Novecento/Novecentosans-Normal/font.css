@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'iCielNovecentosans-Normal';
+  src: url('iCielNovecentosans-Normal.eot');
+  src: url('iCielNovecentosans-Normal.woff2') format('woff2'),
+       url('iCielNovecentosans-Normal.woff') format('woff'),
+       url('iCielNovecentosans-Normal.ttf') format('truetype'),
+       url('iCielNovecentosans-Normal.svg#iCielNovecentosans-Normal') format('svg'),
+       url('iCielNovecentosans-Normal.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

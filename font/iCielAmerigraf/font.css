@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'iCielAmerigraf';
+  src: url('iCielAmerigraf.eot');
+  src: url('iCielAmerigraf.woff2') format('woff2'),
+       url('iCielAmerigraf.woff') format('woff'),
+       url('iCielAmerigraf.ttf') format('truetype'),
+       url('iCielAmerigraf.svg#iCielAmerigraf') format('svg'),
+       url('iCielAmerigraf.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

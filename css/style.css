@@ -1,0 +1,40 @@
+/* Color */
+/* Font */
+/* Layout */
+#myCarousel {
+  height: 393px;
+  overflow: hidden; }
+  #myCarousel img {
+    width: 100%; }
+
+header .top-header {
+  padding: 22px 0;
+  border-bottom: 1px solid #eaebea; }
+  header .top-header .logo {
+    position: relative; }
+    header .top-header .logo img {
+      width: 100%; }
+  header .top-header nav {
+    margin-top: 8px;
+    margin-left: 5px; }
+    header .top-header nav a {
+      font-size: 13pt; }
+    header .top-header nav.main-menu a {
+      padding: 0 20px;
+      border-left: 1px solid #171326; }
+      header .top-header nav.main-menu a:first-child {
+        padding-left: 0;
+        border-left: none; }
+    header .top-header nav.social a {
+      padding-left: 30px; }
+header .slider-wrapper {
+  padding: 28px 0;
+  position: relative; }
+  header .slider-wrapper .row .left-slide {
+    position: absolute; }
+    header .slider-wrapper .row .left-slide > div {
+      margin-top: 80px; }
+    header .slider-wrapper .row .left-slide .button {
+      width: 100%; }
+
+/*# sourceMappingURL=style.css.map */

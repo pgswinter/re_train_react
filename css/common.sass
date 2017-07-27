@@ -1,0 +1,179 @@
+@import amaris-style
+
+*
+	box-sizing: border-box
+
+.clear
+	clear: both
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+label,
+input,
+.btn-amaris,
+nav a
+	// font-family: map-get($shop-font,4) + map-get($amaris-font-default,1)
+	font-family: map-get($novecento-font,3) + map-get($amaris-font-default,1)
+a
+	color: map-get($shop-color,5)
+a:hover
+	text-decoration: none
+ul
+	li
+		list-style-type: none
+p
+	font-family: map-get($shop-font,4) + map-get($amaris-font-default,1)
+	// font-family: map-get($novecento-font,5) + map-get($amaris-font-default,1)
+	font-size: 13pt
+	color: map-get($nextjobs-color-dark,1)
+input
+	box-shadow: none
+	border: 1px solid #cdcdcd
+	padding: 8px 5px
+
+.breadcrumb
+	background-color: #fff
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		width: 3px
+		height: 100%
+		top: 0
+		left: 0
+		display: block
+		background-color: map-get($nextjobs-color-cold,1)
+	a
+		color: map-get($nextjobs-color-dark,1)
+		&:hover
+			color: map-get($nextjobs-color-cold,1)
+		&.active
+			color: map-get($nextjobs-color-cold,5)
+.scroll-down
+	border: none
+	width: 70px
+	height: 36px
+	background: url($btn-scroll) center center no-repeat
+	background-size: 100%
+.full-width,
+.full-width img
+	width: 100%
+.no-padding
+	padding: 0
+.show
+	display: block
+.hide
+	display: none
+.clear-row
+	margin-right: 0
+	margin-left: 0
+.no-bdb
+	border-bottom: none !important
+.no-bdr
+	border-right: none !important
+.upCap
+	text-transform: capitalize
+.mask-bg
+	position: relative
+	.mask
+		width: 100%
+		height: 100%
+		position: absolute
+		background-color: transparent
+		left: 0
+		top: 0
+.btn-amaris
+	
+	padding: 5px 8px
+	// color: map-get($nextjobs-color-cold,5)
+	color: map-get($shop-color,4)
+	text-align: center
+	font-size: 14pt
+	// font-family: map-get($nextjobs-font-caviardreams,3)
+	&.btn-active
+		// border: 1px solid map-get($nextjobs-color-cold,5)
+		border: 1px solid map-get($shop-color,4)
+		background-color: #fff
+		&:hover
+			// background-color: map-get($nextjobs-color-cold,6)
+			background-color: map-get($shop-color,4)
+			color: #fff			
+		&.active
+			background-color: map-get($nextjobs-color-cold,5)
+			color: #fff
+	&.btn-normal
+		border: 1px solid map-get($nextjobs-color-cold,1)
+		background-color: transparent
+		color: map-get($nextjobs-color-cold,1)
+		&:hover
+			background-color: map-get($nextjobs-color-cold,1)
+			color: #fff
+		&.active
+			background-color: map-get($nextjobs-color-cold,2)
+			color: #fff
+	&.btn-load
+		margin: 30px 0
+		width: 100%
+		border: 1px solid map-get($nextjobs-color-cold,4)
+		background-color: transparent
+		color: map-get($nextjobs-color-cold,4)
+		&:hover
+			background-color: map-get($nextjobs-color-cold,4)
+			color: #fff
+		&.active
+			background-color: map-get($nextjobs-color-cold,3)
+			color: #fff
+.btn-close
+	width: 60px
+	height: 60px
+	position: absolute
+	right: 0
+	top: 0
+	border: none
+	background: url($btn-close) center center no-repeat
+	background-size: 100%
+.set-center
+	position: absolute
+	margin-left: auto
+	margin-right: auto
+	left: 0
+	right: 0
+.set-center-normal
+	margin: 0 auto
+	float: none
+.set-relative
+	position: relative
+.form-group
+	padding: 20px
+	.form-item
+		margin-bottom: 10px
+		margin-top: 5px
+		>*
+			width: 100%
+			padding-left: 20px
+			font-size: 12pt
+		button
+			text-transform: uppercase
+		textarea
+			padding-top: 20px
+			height: 145px
+.control-map
+	position: fixed
+	top: 50%
+	right: 0
+	z-index: 1
+	button
+		width: 100%
+.move-down
+	margin-top: 10px			
+footer
+	background-color: map-get($nextjobs-color-dark,1)
+	a
+		&:hover
+			color: #fff
+		
+

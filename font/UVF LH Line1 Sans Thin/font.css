@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'UVF LH Line1 Sans Thin';
+  src: url('UVF LH Line1 Sans Thin.eot');
+  src: url('UVF LH Line1 Sans Thin.woff2') format('woff2'),
+       url('UVF LH Line1 Sans Thin.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UVFLHLine1SansThin';
+  src: url('UVFLHLine1SansThin.woff') format('woff'),
+       url('UVFLHLine1SansThin.ttf') format('truetype'),
+       url('UVFLHLine1SansThin.svg#UVFLHLine1SansThin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

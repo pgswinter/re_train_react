@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'iCielSimplifica';
+  src: url('iCielSimplifica.eot');
+  src: url('iCielSimplifica.woff2') format('woff2'),
+       url('iCielSimplifica.woff') format('woff'),
+       url('iCielSimplifica.ttf') format('truetype'),
+       url('iCielSimplifica.svg#iCielSimplifica') format('svg'),
+       url('iCielSimplifica.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

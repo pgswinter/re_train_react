@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'iCielNovecentosans-Light';
+  src: url('iCielNovecentosans-Light.eot');
+  src: url('iCielNovecentosans-Light.woff2') format('woff2'),
+       url('iCielNovecentosans-Light.woff') format('woff'),
+       url('iCielNovecentosans-Light.ttf') format('truetype'),
+       url('iCielNovecentosans-Light.svg#iCielNovecentosans-Light') format('svg'),
+       url('iCielNovecentosans-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
